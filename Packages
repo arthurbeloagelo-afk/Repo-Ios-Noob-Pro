@@ -1,0 +1,13 @@
+Package: com.unlimapps.uaupdatetools
+ Name: App Admin
+ Version: 1.0r-102
+ Description: Downgrade iOS apps to any previous version! No AppSync needed!!!
+ Depiction: http://beta.unlimapps.com/depiction/com.unlimapps.uaupdatetools/
+ Homepage: http://beta.unlimapps.com/depiction/com.unlimapps.uaupdatetools/
+ Section: System
+ Depends: firmware (>= 7.0), mobilesubstrate
+ Conflicts: it.marcocristalli.asupdatehider
+ Priority: optional
+ Architecture: iphoneos-arm
+ Author: UnlimApps Inc.
+ Maintainer: UnlimApps Inc.
