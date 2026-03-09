@@ -1,3 +1,5 @@
 [user]
 	email = arthurbeloagelo@gmail.com
 	name = arthurbeloagelo-afk
+[credential]
+	helper = store
