@@ -158,3 +158,124 @@ echo "<h1>Meu Repo do Cydia</h1>" > index.html
 git add .
 git commit -m "Corrigindo erro 404 e adicionando index"
 git push origin main
+echo "# Betas" >> README.md 
+git init 
+git add README.md 
+git commit -m "primeiro commit" 
+git branch -M main 
+git remote add origin https://github.com/arthurbeloagelo-afk/Betas.git
+git remote set-url origin https://github.com/arthurbeloagelo-afk/Betas.git
+git push -u origin master --force
+git remote add origin https://github.com/arthurbeloagelo-afk/Betas.git
+git branch -M main
+git push -u origin main
+dpkg-scanpackages
+pkg install dpkg-scanpackages
+dpkg-scanpackages -m . /dev/null > Packages
+pkg update && pkg upgrade
+curl -L "https://www.ios-repo-updates.com/submit/?url=https://arthurbeloagelo-afk.github.io/Repo-Ios-Noob-Pro/"
+dpkg-scanpackages -m . /dev/null > Packages && git add Packages && git commit -m "Fix Packages" && git push
+dpkg-scanpackages -m . /dev/null > Packages && git add Packages && git commit -m "Corrigindo Packages" && git push
+git add .
+git commit -m "Adicionando arquivos do Repo"
+git push
+git branch -m master
+git push -u origin master
+git branch -m main
+git push -u origin main --force
+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
+git branch -m main
+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
+git push -u origin main --force
+git pull origin main --rebase
+git push -u origin main
+git pull origin main --rebase
+git remote show origin
+git push -u origin master --force
+rm -rf .git
+git init
+git add .
+git commit -m "Reiniciando Repo"
+git remote add origin https://github.com/arthurbeloagelo-afk/Repo-Ios-Noob-Pro.git
+git push -u origin master --force
+git pull origin master --rebase
+git push -u origin master
+git push -u origin master --force
+git init && git add . && git commit -m "Force Update" && git remote add origin https://github.com/arthurbeloagelo-afk/Repo-Ios-Noob-Pro.git || git remote set-url origin https://github.com/arthurbeloagelo-afk/Repo-Ios-Noob-Pro.git && git push origin master --force
+rm -rf .git && git init && git add . && git commit -m "Iniciando Repo Betas" && git branch -M master && git remote add origin https://github.com/arthurbeloagelo-afk/Betas.git && git push -u origin master --force
+echo "# Betas" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/arthurbeloagelo-afk/Betas.git
+git push -u origin main
+cd ~/Repo-Ios-Noob-Pro
+git branch -M master
+git add .
+git commit -m
+git commit -m "Criando branch master"
+git push -u origin master --force
+cd ~/Repo-Ios-Noob-Pro
+ls -a
+pwd
+cd Repo-Ios-Noob-Pro
+n
+cd Repo-Ios-Noob-Pro
+clear
+ls
+n
+cd Repo-Ios-Noob-Pro
+git push -u origin main
+git remote set-url origin https://github.com/arthurbeloagelo-afk/Repo-Ios-Noob-Pro.git
+git add .
+git commit -m "Atualizando repo antigo"
+git push -u origin main
+git push -u origin master
+ls
+touch .nojekyll
+git add .nojekyll
+git commit -m "Desativando Jekyll para o Cydia"
+git push origin master
+touch .nojekyll
+git add .nojekyll
+git commit -m "Desativando Jekyll para o Cydia"
+git push origin master
+cd ~/Repo-Ios-Noob-Pro
+mv .nojekyll .nojekyll_fix
+mv .nojekyll_fix .nojekyll
+git add .nojekyll
+git commit -m "Forçando reconhecimento do nojekyll"
+git push origin master
+git push origin --delete gh-pages
+git push origin master
+cd ~/Repo-Ios-Noob-Pro
+echo "Origin: Repo-Ios-Noob-Pro" > Release
+echo "Label: Repo-Ios-Noob-Pro" >> Release
+echo "Suite: stable" >> Release
+echo "Version: 1.0" >> Release
+echo "Codename: ios" >> Release
+echo "Architectures: iphoneos-arm" >> Release
+echo "Components: main" >> Release
+echo "Description: Meu repositorio de tweaks" >> Release
+git add Release
+git commit -m "Adicionando arquivo Release para o Cydia"
+git push origin master
+cd ~/Repo-Ios-Noob-Pro
+echo "# Repo Ativo" > README.md
+git add README.md
+git commit -m "Forçando deploy do site"
+git push origin master
+cd ~/Repo-Ios-Noob-Pro
+echo "<h1>Meu Repo iOS</h1>" > index.html
+git add index.html
+git commit -m "Adicionando index para o GitHub Actions"
+git push origin master
+cd ~/Repo-Ios-Noob-Pro
+git pull origin master --rebase
+cd ~/Repo-Ios-Noob-Pro
+git add .
+git commit -m "Salvando alterações locais antes do pull"
+git pull origin master --rebase
+git push origin master
+git reset --hard origin/master
